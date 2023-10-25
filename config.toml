@@ -1,3 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://test.wapchan.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Wapnet'
+theme = 'wappy'
+publishDir = "/var/www/wapnet"
