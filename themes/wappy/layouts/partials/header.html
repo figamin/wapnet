@@ -9,4 +9,12 @@
         <a href="/kind">/kind/</a>
         -->
     ]</nav>
+    <form id="switchform" class="switchformTop">
+        <label for="switchcontrol">Style</label>
+        <select name="switchcontrol" id="switchcontrol" onChange="chooseStyle(this.options[this.selectedIndex].value, 365); parent.menu.location.reload()">
+          <option value="none">Wapnet Dark</option>
+          <option value="wapnet-light">Wapnet Light</option>
+          <option value="xmas">Xmas</option>
+        </select>
+      </form>
 </header>

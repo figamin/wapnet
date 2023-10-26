@@ -1,0 +1,8 @@
+{{ $options := dict "transpiler" "libsass" "outputStyle" "compressed" }}
+{{ if eq hugo.Environment "development "}}
+    {{ $options := dict "transpiler" "libsass" "outputStyle" "expanded" }}
+{{ end }}
+
+{{ with resources.Get . | toCSS $options }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}

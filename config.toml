@@ -3,3 +3,5 @@ languageCode = 'en-us'
 title = 'Wapnet'
 theme = 'wappy'
 publishDir = "/var/www/wapnet"
+enableGitInfo = "true"
+
