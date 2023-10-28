@@ -1,6 +1,10 @@
-#wapnetBackground {
-    fill: yellow;
-}
-#wapnetText {
-    fill: black;
+.wapnet-light {
+    color: black;
+    background: url("../images/antisnow.gif") repeat, #e2e0de;
+    #wapnetBackground {
+        fill: yellow;
+    }
+    #wapnetText {
+        fill: black;
+    }
 }

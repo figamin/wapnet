@@ -1,0 +1,1 @@
+.wapnet-light{color:#000;background:url("../images/antisnow.gif") repeat,#e2e0de}.wapnet-light #wapnetBackground{fill:#ff0}.wapnet-light #wapnetText{fill:#000}.wapnet-dark{color:#fff;background:url("../images/snow.gif") repeat,#1d1f21;color:#fff}.wapnet-dark #wapnetBackground{fill:#ff0}.wapnet-dark #wapnetText{fill:#000}

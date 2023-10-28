@@ -9,12 +9,16 @@
         <a href="/kind">/kind/</a>
         -->
     ]</nav>
-    <form id="switchform" class="switchformTop">
-        <label for="switchcontrol">Style</label>
-        <select name="switchcontrol" id="switchcontrol" onChange="chooseStyle(this.options[this.selectedIndex].value, 365); parent.menu.location.reload()">
-          <option value="none">Wapnet Dark</option>
-          <option value="wapnet-light">Wapnet Light</option>
-          <option value="xmas">Xmas</option>
+    <!-- Theme Switcher -->
+    <form id="themeSwitcherForm">
+        <label for="themeSwitcherForm">Theme</label>
+        <select name="switchcontrol" id="switchcontrol" onChange="chooseStyle(this.options[this.selectedIndex].value, 365);">
+          {{ range readDir "assets/css/themes"}}
+            {{ if (findRE ".scss$" .Name) }}
+              {{ $niceName := substr .Name 1 -5 }}
+              <option value="{{ $niceName }}">{{ strings.FirstUpper $niceName }}</option>
+            {{ end }}
+          {{ end }}
         </select>
       </form>
 </header>
