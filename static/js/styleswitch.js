@@ -19,5 +19,5 @@ function setStylesheet(styletitle) {
 }
 
 function setCookie(styletitle) {
-  document.cookie = "style=" + styletitle;
+  document.cookie = "style=" + styletitle + ";SameSite=Strict;";
 }
