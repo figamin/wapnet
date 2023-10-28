@@ -1,0 +1,28 @@
+ /*
+    _____  __           _                  __ ____                   __             __    __ _ 
+  / ___/ / /_   _____ (_)____   ___     _/_// __/____   _____     _/_/_____ ___   / /  _/_/| |
+  \__ \ / __ \ / ___// // __ \ / _ \   / / / /_ / __ \ / ___/   _/_/ / ___// _ \ / / _/_/  / /
+ ___/ // / / // /   / // / / //  __/  / / / __// /_/ // /     _/_/  / /__ /  __// /_/_/   / / 
+/____//_/ /_//_/   /_//_/ /_/ \___/  / / /_/   \____//_/     /_/    \___/ \___//_//_/   _/_/  
+                                     |_|                                               /_/    
+Shrine is a theme that attempts to mimic the look and feel of Web 1.0 anime internet shrines. These were websites often hosted on geocities or personal univeristy pages, and though crude, they have a handcrafted charm about them. This is a light theme, though a dark variant may come later as many old anime shrines had dark themes (there was no real consistency).
+*/
+.shrine {
+    font-family: "Times Pixelated 16", "CozetteVector";
+    color: black;
+    background: url("../images/dots.gif");
+    #wapnetBackground {
+        fill: black;
+    }
+    #wapnetText {
+        fill: yellow;
+    }
+    #title {
+        font-family: "Times Pixelated 32", "CozetteVector";
+    }
+    select {
+        appearance: none;
+        -webkit-appearance: none;
+    }
+    cursor: url('../images/wincur.gif'), auto;
+}
