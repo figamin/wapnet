@@ -1,0 +1,26 @@
+/*
+ __  __        __                __               __ ____                   __     __ _         _     __ _ 
+\ \/ /____   / /_ _____ __  __ / /_   ____ _   _/_// __/____   _____     _/_/____/ /(_)____ _ (_)  _/_/| |
+ \  // __ \ / __// ___// / / // __ \ / __ `/  / / / /_ / __ \ / ___/   _/_/ / __  // // __ `// / _/_/  / /
+ / // /_/ // /_ (__  )/ /_/ // /_/ // /_/ /  / / / __// /_/ // /     _/_/  / /_/ // // /_/ // /_/_/   / / 
+/_/ \____/ \__//____/ \__,_//_.___/ \__,_/  / / /_/   \____//_/     /_/    \__,_//_/ \__, //_//_/   _/_/  
+                                            |_|                                     /____/         /_/
+Yotsuba is a theme largely based on the very early days of 4chan (circa 2003), since this where some of the best 2000s online anime discussions took place. As such, it's a oretty simple theme, and is mostly differentiated from the other themes by the sidebar on the front page, since this is actually how 4chan looked at the time. Here is the actual capture of 4chan.net that I used to help make the elements for this theme.
+https://web.archive.org/web/20031122004728/http://www.4chan.net/
+*/
+.pc-98 {
+    background: black;
+    color: white;
+    font-family: 'PC-98', "CozetteVector";
+    #wapnetBackground {
+        fill: yellow;
+    }
+    #wapnetText {
+        fill: black;
+    }
+    select {
+        appearance: none;
+        -webkit-appearance: none;
+    }
+    cursor: url('../images/wincur.gif'), auto;
+}

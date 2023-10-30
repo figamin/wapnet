@@ -10,7 +10,6 @@ window.onload = function() {
 function chooseStyle(styletitle) { 
     setStylesheet(styletitle);
     setCookie(styletitle);
-  
 }
 
 function setStylesheet(styletitle) {

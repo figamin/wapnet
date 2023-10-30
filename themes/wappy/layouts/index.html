@@ -2,6 +2,7 @@
   <main aria-role="main">
     <header id="title">
       <h1>{{.Title}}</h1>
+      <p id="randomQuote"></p>
     </header>
     
     <div class="homepage-content">
@@ -13,4 +14,5 @@
       {{ end }}
     </div>
   </main>
+  <script defer language="javascript" type="text/javascript"  src='{{ "/js/randomquote.js" | urlize | relURL }}'></script>
 {{ end }}
