@@ -2,6 +2,9 @@
     font-family: "CozetteVector";
     color: white;
     background: url("../images/snow.gif") repeat, #1d1f21;
+    #wapnetLogo {
+        pointer-events: none;
+    }
     #wapnetBackground {
         fill: yellow;
     }

@@ -12,6 +12,9 @@ https://web.archive.org/web/20031122004728/http://www.4chan.net/
     background: #FFFFEE;
     color: #800000;
     font-family: 'Arial Pixelated 16', "CozetteVector";
+    #wapnetLogo {
+        pointer-events: none;
+    }
     #wapnetBackground {
         fill: black;
     }

@@ -451,6 +451,9 @@
   color: black;
   background: url("../images/antisnow.gif") repeat, #e2e0de;
 }
+.wapnet-light #wapnetLogo {
+  pointer-events: none;
+}
 .wapnet-light #wapnetBackground {
   fill: black;
 }
@@ -467,6 +470,9 @@
   color: white;
   background: url("../images/snow.gif") repeat, #1d1f21;
 }
+.wapnet-dark #wapnetLogo {
+  pointer-events: none;
+}
 .wapnet-dark #wapnetBackground {
   fill: yellow;
 }
@@ -478,6 +484,9 @@
   -webkit-appearance: none;
 }
 
+.xmas #wapnetLogo {
+  pointer-events: none;
+}
 .xmas #wapnetBackground {
   fill: #00873E;
 }
@@ -499,6 +508,9 @@ Shrine is a theme that attempts to mimic the look and feel of Web 1.0 anime inte
   color: black;
   background: url("../images/dots.gif");
   cursor: url("../images/wincur.gif"), auto;
+}
+.shrine #wapnetLogo {
+  pointer-events: none;
 }
 .shrine #wapnetBackground {
   fill: black;
@@ -531,6 +543,9 @@ https://web.archive.org/web/20031122004728/http://www.4chan.net/
   font-family: "Arial Pixelated 16", "CozetteVector";
   cursor: url("../images/wincur.gif"), auto;
 }
+.yotsuba #wapnetLogo {
+  pointer-events: none;
+}
 .yotsuba #wapnetBackground {
   fill: black;
 }
@@ -561,6 +576,9 @@ https://web.archive.org/web/20031122004728/http://www.4chan.net/
   font-family: "Arial Pixelated 16", "CozetteVector";
   cursor: url("../images/wincur.gif"), auto;
 }
+.yotsuba-b #wapnetLogo {
+  pointer-events: none;
+}
 .yotsuba-b #wapnetBackground {
   fill: black;
 }
@@ -590,6 +608,9 @@ https://web.archive.org/web/20031122004728/http://www.4chan.net/
   color: white;
   font-family: "PC-98", "CozetteVector";
   cursor: url("../images/wincur.gif"), auto;
+}
+.pc-98 #wapnetLogo {
+  pointer-events: none;
 }
 .pc-98 #wapnetBackground {
   fill: yellow;

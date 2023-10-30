@@ -2,6 +2,9 @@
     font-family: "CozetteVector";
     color: black;
     background: url("../images/antisnow.gif") repeat, #e2e0de;
+    #wapnetLogo {
+        pointer-events: none;
+    }
     #wapnetBackground {
         fill: black;
     }

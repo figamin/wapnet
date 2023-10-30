@@ -11,6 +11,9 @@ Shrine is a theme that attempts to mimic the look and feel of Web 1.0 anime inte
     font-family: "Times Pixelated 16", "CozetteVector";
     color: black;
     background: url("../images/dots.gif");
+    #wapnetLogo {
+        pointer-events: none;
+    }
     #wapnetBackground {
         fill: black;
     }
