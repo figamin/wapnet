@@ -1,6 +1,6 @@
-{{ $options := dict "transpiler" "dartsass" "outputStyle" "compressed" }}
+{{ $options := dict "transpiler" "libsass" "outputStyle" "compressed" }}
 {{ if eq hugo.Environment "development "}}
-    {{ $options := dict "transpiler" "dartsass" "outputStyle" "expanded" }}
+    {{ $options := dict "transpiler" "libsass" "outputStyle" "expanded" }}
 {{ end }}
 
 {{ with resources.Get . | toCSS $options }}
