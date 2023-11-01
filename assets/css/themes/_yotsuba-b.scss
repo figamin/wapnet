@@ -21,7 +21,7 @@ https://web.archive.org/web/20031122004728/http://www.4chan.net/
     #wapnetText {
         fill: yellow;
     }
-    #title {
+    h1, #title {
         font-family: "Arial Pixelated 32", "CozetteVector";
     }
     select {
@@ -29,4 +29,14 @@ https://web.archive.org/web/20031122004728/http://www.4chan.net/
         -webkit-appearance: none;
     }
     cursor: url('../images/wincur.gif'), auto;
+    form table {
+        margin: auto;
+    }
+    .board_image {
+        display: block;
+        margin: 12px auto 0 auto;
+    }
+    .boardTitle {
+        text-align: center;
+    }
 }

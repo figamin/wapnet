@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <header class="page-header">
+      <h1>{{.Title}}</h1>
+    </header>
+    <div class="page-content">
+      {{.Content}}
+    </div>
+    <p>Last Updated on {{ now.Format "2 Jan 2006" }}</p>
+  </main>
+{{ end }}

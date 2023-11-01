@@ -2,23 +2,36 @@
     <nav>[
         <a href="/">Home</a> /
         <a href="/pages/cool-sites">Cool Sites</a> /
-        <a href="/news">News</a> / 
-        <a href="https://test.wapchan.org/koko/">/cel/</a>
+        <a href="/news">News</a> ]
+        [ <a href="https://test.wapchan.org/vichan/cel/">cel</a> /
+        <a href="https://test.wapchan.org/vichan/digi/">digi</a> /
+        <a href="https://test.wapchan.org/vichan/kind/">kind</a> /
+        <a href="https://test.wapchan.org/vichan/wap/">wap</a> /
+        <a href="https://wapchan.org/doodle/">doodle</a> /
+        <a href="https://test.wapchan.org/wapworld/">wapworld</a> ]
+        [ <a href="https://radio.wapchan.org/">Radio</a> ]
         <!--
         <a href="/digi">/digi/</a> /
         <a href="/kind">/kind/</a>
         -->
-    ]</nav>
+    </nav>
     <!-- Theme Switcher -->
     <form id="themeSwitcherForm">
         <label for="themeSwitcherForm">Theme</label>
         <select name="switchcontrol" id="switchcontrol" onChange="chooseStyle(this.options[this.selectedIndex].value, 365);">
-          {{ range readDir "assets/css/themes"}}
+          <option value="wapnet-dark">Wapnet Dark</option>
+					<option value="wapnet-light">Wapnet Light</option>
+          <option value="shrine">Shrine</option>
+          <option value="pc-98">PC-98</option>
+          <option value="yotsuba">Yotsuba</option>
+          <option value="yotsuba-b">Yotsuba B</option>
+          <option value="xmas">Xmas</option>
+          <!--{{ range readDir "assets/css/themes"}}
             {{ if (findRE ".scss$" .Name) }}
               {{ $niceName := substr .Name 1 -5 }}
               <option value="{{ $niceName }}">{{ strings.FirstUpper $niceName }}</option>
             {{ end }}
-          {{ end }}
+          {{ end }}-->
         </select>
       </form>
       <svg id="wapnetLogo" width="10" height="6" transform="scale(15) translate(5, 10) rotate(-10)" opacity=".25">

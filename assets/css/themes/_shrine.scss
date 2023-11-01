@@ -20,7 +20,7 @@ Shrine is a theme that attempts to mimic the look and feel of Web 1.0 anime inte
     #wapnetText {
         fill: yellow;
     }
-    #title {
+    h1, #title {
         font-family: "Times Pixelated 32", "CozetteVector";
     }
     select {
@@ -29,4 +29,7 @@ Shrine is a theme that attempts to mimic the look and feel of Web 1.0 anime inte
         font-family: "Times Pixelated 16", "CozetteVector";
     }
     cursor: url('../images/wincur.gif'), auto;
+    form table {
+        margin: auto;
+    }
 }

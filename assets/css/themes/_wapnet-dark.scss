@@ -1,6 +1,6 @@
 .wapnet-dark {
     font-family: "CozetteVector";
-    color: white;
+    color: #c5c8c6;
     background: url("../images/snow.gif") repeat, #1d1f21;
     #wapnetLogo {
         pointer-events: none;
@@ -14,5 +14,32 @@
     select {
         appearance: none;
         -webkit-appearance: none;
+    }
+    .name {
+        color: #7fedb4;
+    }
+    .subject {
+        color: #ff1100;
+    }
+    form table {
+        margin: auto;
+    }
+    .board_image {
+        display: block;
+        margin: 12px auto 0 auto;
+    }
+    a:link {
+        color: #9ab9f2;
+    }
+    a:visited {
+        color: #ca9af2;
+    }
+    .boardTitle {
+        text-align: center;
+    }
+    input, textarea {
+        background-color: #282a2e;
+        color: #c5c8c6;
+        font-family: "CozetteVector";
     }
 }

@@ -13,10 +13,10 @@ function chooseStyle(styletitle) {
 }
 
 function setStylesheet(styletitle) {
-  var body = document.getElementsByTagName('body')[0];
-  body.className = styletitle;
+  document.getElementById('switchcontrol').value = styletitle;
+  document.getElementsByTagName('body')[0].className = styletitle;
 }
 
 function setCookie(styletitle) {
-  document.cookie = "style=" + styletitle + ";SameSite=Strict;";
+  document.cookie = "style=" + styletitle + ";path=/;SameSite=Strict;";
 }

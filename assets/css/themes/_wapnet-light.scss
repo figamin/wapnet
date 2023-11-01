@@ -1,6 +1,6 @@
 .wapnet-light {
     font-family: "CozetteVector";
-    color: black;
+    color: #3a3739;
     background: url("../images/antisnow.gif") repeat, #e2e0de;
     #wapnetLogo {
         pointer-events: none;
@@ -14,5 +14,20 @@
     select {
         appearance: none;
         -webkit-appearance: none;
+    }
+    form table {
+        margin: auto;
+    }
+    .board_image {
+        display: block;
+        margin: 12px auto 0 auto;
+    }
+    input, textarea {
+        background-color: #d7d5d1;
+        color: #3a3739;
+        font-family: "CozetteVector";
+    }
+    .boardTitle {
+        text-align: center;
     }
 }
